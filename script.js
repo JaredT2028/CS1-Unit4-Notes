@@ -29,6 +29,61 @@ console.log(luckyNum);
 luckyNum = 15;
 console.log(luckyNum);
 
+let age = 15;
+console.log(age);
+let ageInTen = age + 10;
+console.log(ageInTen);
+let ageDogYears = age / 7;
+console.log(ageDogYears);
+let leoHumanYears = 5 * 7;
+console.log(leoHumanYears);
+
+// PEMDAS applies when you have multiple operators
+let score = 0;
+score = score + 8 - 9 / 21 * (4 + 6);
+console.log(score);
+
+// Combine 2 "literal" Strings (CONCATENATION)
+console.log("My age is " + "age");
+// OR concatenate a literal String with a VARIABLE
+console.log("My age is " + age);
+console.log("My age in 10 years will be " + ageInTen);
+console.log("My age in dog years is " + ageDogYears);
+
+// Can also concatenate while making variables
+let user = "Zach";
+let message = "Welcome " + user + "!";
+console.log(message)
+
+/* FUNCTIONS:
+    Reusable sets of code statements that perform a specific taks/process/routine
+*/
+
+// console.log is a built-in function we use 
+console.log("I just used a function")
+
+// DEFINE (create) your own function
+function prepareForSleep() {
+    // STATEMENTS (actions) to execute for this routine
+    console.log("1. Put on PJs");
+    console.log("2. Brush Teeth");
+    console.log("3. Read on my kindle");
+}
+
+// CALL (use) our function use its name
+prepareForSleep();
+
+/* Selection (CONDITIONALS) a BOOLEAN EXPRESSION is like a question that has a boolean (true/false) answer */
+
+console.log( 30 > 10 );
+console.log("Q: Is 10 less than 2");
+console.log( 10 < 2 );
+
+//Check for EQUALITY, use == (or ===)
+console.log(10 == 10);
+console.log(5 == 7);
+console.log (5 != 7); // NOT equal
+
 console.log("Parrot" > "Dog");
 
 console.log("A" < "a");
