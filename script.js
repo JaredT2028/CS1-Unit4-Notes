@@ -29,3 +29,21 @@ console.log(luckyNum);
 luckyNum = 15;
 console.log(luckyNum);
 
+console.log("Parrot" > "Dog");
+
+console.log("A" < "a");
+
+console.log("ms.walter" == "ms.walter");
+
+let password = "abc123"
+console.log("abc123" == password);
+
+let myAge = 17;
+if ( myAge >= 17 ) {
+    // statements here only run if expression TRUE
+    console.log("You are old enough to get your NY license")
+}
+
+else {
+    console.log("Not elgible for a license");
+}
